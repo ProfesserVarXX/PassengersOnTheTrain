@@ -18,7 +18,7 @@ body {
  to {
     transform: translateX(0px);
 }
-
+}
 
 .header {
     display: flex;
