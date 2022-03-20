@@ -13,7 +13,7 @@ body {
 .header {
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     margin-top: 150px;
 }
 
@@ -37,4 +37,5 @@ body {
 
 .btn:active {
     background-color: #646464;
+}
 }
