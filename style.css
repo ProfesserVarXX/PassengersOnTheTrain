@@ -12,11 +12,11 @@ body {
 }
 
 @keyframes move() {
-from {
+ from {
     transform: translateX(800px);
 }
-to {
-   transform: translateX(0px);
+ to {
+    transform: translateX(0px);
 }
 }
 
