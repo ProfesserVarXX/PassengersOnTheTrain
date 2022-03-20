@@ -8,14 +8,14 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    animation: move 2s infinite;
+    animation: move 2s ease;
 }
 
 @keyframes move {
- from {
+  from {
     transform: translateX(800px);
 }
- to {
+  to {
     transform: translateX(0px);
 }
 }
