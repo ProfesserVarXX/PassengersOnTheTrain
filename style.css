@@ -8,6 +8,16 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    animation: move 2s ease;
+}
+
+@keyframes move() {
+from {
+    transform: translateX(800px);
+}
+to {
+   transform: translateX(0px);
+}
 }
 
 .header {
