@@ -8,6 +8,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
+<<<<<<< HEAD
     animation: move 2s infinite;
 }
 
@@ -19,6 +20,18 @@ body {
     to {
         transform: translateX(0px);
     }
+=======
+    animation: move 2s ease;
+}
+
+@keyframes move {
+  from {
+    transform: translateX(800px);
+}
+  to {
+    transform: translateX(0px);
+}
+>>>>>>> 4f86f222c992cb67e863df9dda1faa0a6e1de0d8
 }
 
 .header {
