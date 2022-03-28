@@ -1,9 +1,8 @@
 let passengers = document.createElement("h1");
+document.body.appendChlid(passengers.innerText = "Total: " + defaults);
 let defaults = 0;
-
-passengers.innerText = "Total: " + defaults;
 
 function increment() {
     let increments = defaults += 1;
-    passengers.innerText = "Total: " + increments;
+    document.body.appendChlid(passengers.innerText = "Total: " + increments)
 }
