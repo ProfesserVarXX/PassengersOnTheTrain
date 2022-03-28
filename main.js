@@ -1,11 +1,11 @@
 let passengers = document.createElement("h1");
 let defaults = 0;
 
-let begin = passengers.innerHTML = "Total: " + defaults;
-document.body.appendChild(begin);
+passengers.innerHTML = "Total: " + defaults;
+document.body.appendChild(passengers);
 
 function increment() {
     let increments = defaults += 1;
-    let end = passengers.innerHTML = "Total: " + increments;
-    document.body.appendChild(end)
+    passengers.innerHTML = "Total: " + increments;
+    document.body.appendChild(passengers)
 }
