@@ -1,7 +1,8 @@
 let passengers = document.createElement("h1");
+let defaults = 0;
+
 let begin = passengers.innerHTML = "Total: " + defaults;
 document.body.appendChild(begin);
-let defaults = 0;
 
 function increment() {
     let increments = defaults += 1;
