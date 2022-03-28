@@ -1,8 +1,10 @@
 let passengers = document.createElement("h1");
-document.body.appendChild(passengers.innerText = "Total: " + defaults);
+let begin = passengers.innerHTML = "Total: " + defaults;
+document.body.appendChild(begin);
 let defaults = 0;
 
 function increment() {
     let increments = defaults += 1;
-    document.body.appendChild(passengers.innerText = "Total: " + increments)
+    let end = passengers.innerHTML = "Total: " + increments;
+    document.body.appendChild(end)
 }
