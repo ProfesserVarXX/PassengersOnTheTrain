@@ -1,4 +1,4 @@
-let passengers = document.createElement("h1");
+let passengers = document.querySelector(".person");
 let defaults = 0;
 
 passengers.innerHTML = "Total: " + defaults;
